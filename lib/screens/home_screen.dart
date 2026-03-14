@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
     await _service.loadData();
     final prefs = await SharedPreferences.getInstance();
     _selectedKeruletId = prefs.getString('selectedKeruletId');
-    
+
     if (_selectedKeruletId != null) {
       _selectedKerulet = _service.keruletek.firstWhere(
         (k) => k.id == _selectedKeruletId,
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
       );
       _jeloltek = _service.getJeloltekByKerulet(_selectedKeruletId!);
     }
-    
+
     setState(() {
       _isLoading = false;
     });
@@ -61,7 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (result != null) {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setString('selectedKeruletId', result.id);
-      
+
       setState(() {
         _selectedKeruletId = result.id;
         _selectedKerulet = result;
@@ -93,8 +93,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _selectedKeruletId == null
-              ? _buildSelectKeruletPrompt()
-              : _buildContent(),
+          ? _buildSelectKeruletPrompt()
+          : _buildContent(),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _selectKerulet,
         icon: const Icon(Icons.location_on),
@@ -124,9 +124,9 @@ class _HomeScreenState extends State<HomeScreen> {
             const SizedBox(height: 16),
             Text(
               'Ahhoz, hogy lásd a jelölteket, először ki kell választanod, melyik választókerületben szavazol.',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: Colors.grey[600],
-                  ),
+              style: Theme.of(
+                context,
+              ).textTheme.bodyMedium?.copyWith(color: Colors.grey[600]),
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 32),
@@ -194,6 +194,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 )
               : ListView.builder(
+                  padding: const EdgeInsets.only(bottom: 80),
                   itemCount: _jeloltek.length,
                   itemBuilder: (context, index) {
                     final jelolt = _jeloltek[index];
@@ -203,7 +204,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (_) => CandidateDetailScreen(jelolt: jelolt),
+                            builder: (_) =>
+                                CandidateDetailScreen(jelolt: jelolt),
                           ),
                         );
                       },
@@ -318,7 +320,8 @@ class _KeruletSelectorSheetState extends State<KeruletSelectorSheet> {
                         itemCount: _filteredKeruletek.length,
                         itemBuilder: (context, index) {
                           final kerulet = _filteredKeruletek[index];
-                          final isSelected = kerulet.id == widget.selectedKeruletId;
+                          final isSelected =
+                              kerulet.id == widget.selectedKeruletId;
                           return ListTile(
                             title: Text(kerulet.nev),
                             trailing: isSelected
