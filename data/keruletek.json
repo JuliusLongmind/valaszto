@@ -1,0 +1,620 @@
+[
+  {
+    "id": "000",
+    "nev": "BÁCS-KISKUN, 1. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 1
+  },
+  {
+    "id": "001",
+    "nev": "BÁCS-KISKUN, 2. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 2
+  },
+  {
+    "id": "002",
+    "nev": "BÁCS-KISKUN, 3. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 3
+  },
+  {
+    "id": "003",
+    "nev": "BÁCS-KISKUN, 4. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 4
+  },
+  {
+    "id": "004",
+    "nev": "BÁCS-KISKUN, 5. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 5
+  },
+  {
+    "id": "005",
+    "nev": "BÁCS-KISKUN, 6. számú OEVK",
+    "megye": "BÁCS-KISKUN",
+    "oevk": 6
+  },
+  {
+    "id": "006",
+    "nev": "BARANYA, 1. számú OEVK",
+    "megye": "BARANYA",
+    "oevk": 1
+  },
+  {
+    "id": "007",
+    "nev": "BARANYA, 2. számú OEVK",
+    "megye": "BARANYA",
+    "oevk": 2
+  },
+  {
+    "id": "008",
+    "nev": "BARANYA, 3. számú OEVK",
+    "megye": "BARANYA",
+    "oevk": 3
+  },
+  {
+    "id": "009",
+    "nev": "BARANYA, 4. számú OEVK",
+    "megye": "BARANYA",
+    "oevk": 4
+  },
+  {
+    "id": "010",
+    "nev": "BÉKÉS, 1. számú OEVK",
+    "megye": "BÉKÉS",
+    "oevk": 1
+  },
+  {
+    "id": "011",
+    "nev": "BÉKÉS, 2. számú OEVK",
+    "megye": "BÉKÉS",
+    "oevk": 2
+  },
+  {
+    "id": "012",
+    "nev": "BÉKÉS, 3. számú OEVK",
+    "megye": "BÉKÉS",
+    "oevk": 3
+  },
+  {
+    "id": "013",
+    "nev": "BÉKÉS, 4. számú OEVK",
+    "megye": "BÉKÉS",
+    "oevk": 4
+  },
+  {
+    "id": "014",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 1. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 1
+  },
+  {
+    "id": "015",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 2. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 2
+  },
+  {
+    "id": "016",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 3. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 3
+  },
+  {
+    "id": "017",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 4. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 4
+  },
+  {
+    "id": "018",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 5. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 5
+  },
+  {
+    "id": "019",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 6. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 6
+  },
+  {
+    "id": "020",
+    "nev": "BORSOD-ABAÚJ-ZEMPLÉN, 7. számú OEVK",
+    "megye": "BORSOD-ABAÚJ-ZEMPLÉN",
+    "oevk": 7
+  },
+  {
+    "id": "021",
+    "nev": "BUDAPEST, 1. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 1
+  },
+  {
+    "id": "022",
+    "nev": "BUDAPEST, 2. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 2
+  },
+  {
+    "id": "023",
+    "nev": "BUDAPEST, 3. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 3
+  },
+  {
+    "id": "024",
+    "nev": "BUDAPEST, 4. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 4
+  },
+  {
+    "id": "025",
+    "nev": "BUDAPEST, 5. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 5
+  },
+  {
+    "id": "026",
+    "nev": "BUDAPEST, 6. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 6
+  },
+  {
+    "id": "027",
+    "nev": "BUDAPEST, 7. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 7
+  },
+  {
+    "id": "028",
+    "nev": "BUDAPEST, 8. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 8
+  },
+  {
+    "id": "029",
+    "nev": "BUDAPEST, 9. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 9
+  },
+  {
+    "id": "030",
+    "nev": "BUDAPEST, 10. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 10
+  },
+  {
+    "id": "031",
+    "nev": "BUDAPEST, 11. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 11
+  },
+  {
+    "id": "032",
+    "nev": "BUDAPEST, 12. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 12
+  },
+  {
+    "id": "033",
+    "nev": "BUDAPEST, 13. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 13
+  },
+  {
+    "id": "034",
+    "nev": "BUDAPEST, 14. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 14
+  },
+  {
+    "id": "035",
+    "nev": "BUDAPEST, 15. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 15
+  },
+  {
+    "id": "036",
+    "nev": "BUDAPEST, 16. számú OEVK",
+    "megye": "BUDAPEST",
+    "oevk": 16
+  },
+  {
+    "id": "037",
+    "nev": "CSONGRÁD-CSANÁD, 1. számú OEVK",
+    "megye": "CSONGRÁD-CSANÁD",
+    "oevk": 1
+  },
+  {
+    "id": "038",
+    "nev": "CSONGRÁD-CSANÁD, 2. számú OEVK",
+    "megye": "CSONGRÁD-CSANÁD",
+    "oevk": 2
+  },
+  {
+    "id": "039",
+    "nev": "CSONGRÁD-CSANÁD, 3. számú OEVK",
+    "megye": "CSONGRÁD-CSANÁD",
+    "oevk": 3
+  },
+  {
+    "id": "040",
+    "nev": "CSONGRÁD-CSANÁD, 4. számú OEVK",
+    "megye": "CSONGRÁD-CSANÁD",
+    "oevk": 4
+  },
+  {
+    "id": "041",
+    "nev": "FEJÉR, 1. számú OEVK",
+    "megye": "FEJÉR",
+    "oevk": 1
+  },
+  {
+    "id": "042",
+    "nev": "FEJÉR, 2. számú OEVK",
+    "megye": "FEJÉR",
+    "oevk": 2
+  },
+  {
+    "id": "043",
+    "nev": "FEJÉR, 3. számú OEVK",
+    "megye": "FEJÉR",
+    "oevk": 3
+  },
+  {
+    "id": "044",
+    "nev": "FEJÉR, 4. számú OEVK",
+    "megye": "FEJÉR",
+    "oevk": 4
+  },
+  {
+    "id": "045",
+    "nev": "FEJÉR, 5. számú OEVK",
+    "megye": "FEJÉR",
+    "oevk": 5
+  },
+  {
+    "id": "046",
+    "nev": "GYŐR-MOSON-SOPRON, 1. számú OEVK",
+    "megye": "GYŐR-MOSON-SOPRON",
+    "oevk": 1
+  },
+  {
+    "id": "047",
+    "nev": "GYŐR-MOSON-SOPRON, 2. számú OEVK",
+    "megye": "GYŐR-MOSON-SOPRON",
+    "oevk": 2
+  },
+  {
+    "id": "048",
+    "nev": "GYŐR-MOSON-SOPRON, 3. számú OEVK",
+    "megye": "GYŐR-MOSON-SOPRON",
+    "oevk": 3
+  },
+  {
+    "id": "049",
+    "nev": "GYŐR-MOSON-SOPRON, 4. számú OEVK",
+    "megye": "GYŐR-MOSON-SOPRON",
+    "oevk": 4
+  },
+  {
+    "id": "050",
+    "nev": "GYŐR-MOSON-SOPRON, 5. számú OEVK",
+    "megye": "GYŐR-MOSON-SOPRON",
+    "oevk": 5
+  },
+  {
+    "id": "051",
+    "nev": "HAJDÚ-BIHAR, 1. számú OEVK",
+    "megye": "HAJDÚ-BIHAR",
+    "oevk": 1
+  },
+  {
+    "id": "052",
+    "nev": "HAJDÚ-BIHAR, 2. számú OEVK",
+    "megye": "HAJDÚ-BIHAR",
+    "oevk": 2
+  },
+  {
+    "id": "053",
+    "nev": "HAJDÚ-BIHAR, 3. számú OEVK",
+    "megye": "HAJDÚ-BIHAR",
+    "oevk": 3
+  },
+  {
+    "id": "054",
+    "nev": "HAJDÚ-BIHAR, 4. számú OEVK",
+    "megye": "HAJDÚ-BIHAR",
+    "oevk": 4
+  },
+  {
+    "id": "055",
+    "nev": "HAJDÚ-BIHAR, 5. számú OEVK",
+    "megye": "HAJDÚ-BIHAR",
+    "oevk": 5
+  },
+  {
+    "id": "056",
+    "nev": "HEVES, 1. számú OEVK",
+    "megye": "HEVES",
+    "oevk": 1
+  },
+  {
+    "id": "057",
+    "nev": "HEVES, 2. számú OEVK",
+    "megye": "HEVES",
+    "oevk": 2
+  },
+  {
+    "id": "058",
+    "nev": "HEVES, 3. számú OEVK",
+    "megye": "HEVES",
+    "oevk": 3
+  },
+  {
+    "id": "059",
+    "nev": "JÁSZ-NAGYKUN-SZOLNOK, 1. számú OEVK",
+    "megye": "JÁSZ-NAGYKUN-SZOLNOK",
+    "oevk": 1
+  },
+  {
+    "id": "060",
+    "nev": "JÁSZ-NAGYKUN-SZOLNOK, 2. számú OEVK",
+    "megye": "JÁSZ-NAGYKUN-SZOLNOK",
+    "oevk": 2
+  },
+  {
+    "id": "061",
+    "nev": "JÁSZ-NAGYKUN-SZOLNOK, 3. számú OEVK",
+    "megye": "JÁSZ-NAGYKUN-SZOLNOK",
+    "oevk": 3
+  },
+  {
+    "id": "062",
+    "nev": "JÁSZ-NAGYKUN-SZOLNOK, 4. számú OEVK",
+    "megye": "JÁSZ-NAGYKUN-SZOLNOK",
+    "oevk": 4
+  },
+  {
+    "id": "063",
+    "nev": "KOMÁROM-ESZTERGOM, 1. számú OEVK",
+    "megye": "KOMÁROM-ESZTERGOM",
+    "oevk": 1
+  },
+  {
+    "id": "064",
+    "nev": "KOMÁROM-ESZTERGOM, 2. számú OEVK",
+    "megye": "KOMÁROM-ESZTERGOM",
+    "oevk": 2
+  },
+  {
+    "id": "065",
+    "nev": "KOMÁROM-ESZTERGOM, 3. számú OEVK",
+    "megye": "KOMÁROM-ESZTERGOM",
+    "oevk": 3
+  },
+  {
+    "id": "066",
+    "nev": "NÓGRÁD, 1. számú OEVK",
+    "megye": "NÓGRÁD",
+    "oevk": 1
+  },
+  {
+    "id": "067",
+    "nev": "NÓGRÁD, 2. számú OEVK",
+    "megye": "NÓGRÁD",
+    "oevk": 2
+  },
+  {
+    "id": "068",
+    "nev": "PEST, 1. számú OEVK",
+    "megye": "PEST",
+    "oevk": 1
+  },
+  {
+    "id": "069",
+    "nev": "PEST, 2. számú OEVK",
+    "megye": "PEST",
+    "oevk": 2
+  },
+  {
+    "id": "070",
+    "nev": "PEST, 3. számú OEVK",
+    "megye": "PEST",
+    "oevk": 3
+  },
+  {
+    "id": "071",
+    "nev": "PEST, 4. számú OEVK",
+    "megye": "PEST",
+    "oevk": 4
+  },
+  {
+    "id": "072",
+    "nev": "PEST, 5. számú OEVK",
+    "megye": "PEST",
+    "oevk": 5
+  },
+  {
+    "id": "073",
+    "nev": "PEST, 6. számú OEVK",
+    "megye": "PEST",
+    "oevk": 6
+  },
+  {
+    "id": "074",
+    "nev": "PEST, 7. számú OEVK",
+    "megye": "PEST",
+    "oevk": 7
+  },
+  {
+    "id": "075",
+    "nev": "PEST, 8. számú OEVK",
+    "megye": "PEST",
+    "oevk": 8
+  },
+  {
+    "id": "076",
+    "nev": "PEST, 9. számú OEVK",
+    "megye": "PEST",
+    "oevk": 9
+  },
+  {
+    "id": "077",
+    "nev": "PEST, 10. számú OEVK",
+    "megye": "PEST",
+    "oevk": 10
+  },
+  {
+    "id": "078",
+    "nev": "PEST, 11. számú OEVK",
+    "megye": "PEST",
+    "oevk": 11
+  },
+  {
+    "id": "079",
+    "nev": "PEST, 12. számú OEVK",
+    "megye": "PEST",
+    "oevk": 12
+  },
+  {
+    "id": "080",
+    "nev": "SOMOGY, 1. számú OEVK",
+    "megye": "SOMOGY",
+    "oevk": 1
+  },
+  {
+    "id": "081",
+    "nev": "SOMOGY, 2. számú OEVK",
+    "megye": "SOMOGY",
+    "oevk": 2
+  },
+  {
+    "id": "082",
+    "nev": "SOMOGY, 3. számú OEVK",
+    "megye": "SOMOGY",
+    "oevk": 3
+  },
+  {
+    "id": "083",
+    "nev": "SOMOGY, 4. számú OEVK",
+    "megye": "SOMOGY",
+    "oevk": 4
+  },
+  {
+    "id": "084",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 1. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 1
+  },
+  {
+    "id": "085",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 2. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 2
+  },
+  {
+    "id": "086",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 3. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 3
+  },
+  {
+    "id": "087",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 4. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 4
+  },
+  {
+    "id": "088",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 5. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 5
+  },
+  {
+    "id": "089",
+    "nev": "SZABOLCS-SZATMÁR-BEREG, 6. számú OEVK",
+    "megye": "SZABOLCS-SZATMÁR-BEREG",
+    "oevk": 6
+  },
+  {
+    "id": "090",
+    "nev": "TOLNA, 1. számú OEVK",
+    "megye": "TOLNA",
+    "oevk": 1
+  },
+  {
+    "id": "091",
+    "nev": "TOLNA, 2. számú OEVK",
+    "megye": "TOLNA",
+    "oevk": 2
+  },
+  {
+    "id": "092",
+    "nev": "TOLNA, 3. számú OEVK",
+    "megye": "TOLNA",
+    "oevk": 3
+  },
+  {
+    "id": "093",
+    "nev": "VAS, 1. számú OEVK",
+    "megye": "VAS",
+    "oevk": 1
+  },
+  {
+    "id": "094",
+    "nev": "VAS, 2. számú OEVK",
+    "megye": "VAS",
+    "oevk": 2
+  },
+  {
+    "id": "095",
+    "nev": "VAS, 3. számú OEVK",
+    "megye": "VAS",
+    "oevk": 3
+  },
+  {
+    "id": "096",
+    "nev": "VESZPRÉM, 1. számú OEVK",
+    "megye": "VESZPRÉM",
+    "oevk": 1
+  },
+  {
+    "id": "097",
+    "nev": "VESZPRÉM, 2. számú OEVK",
+    "megye": "VESZPRÉM",
+    "oevk": 2
+  },
+  {
+    "id": "098",
+    "nev": "VESZPRÉM, 3. számú OEVK",
+    "megye": "VESZPRÉM",
+    "oevk": 3
+  },
+  {
+    "id": "099",
+    "nev": "VESZPRÉM, 4. számú OEVK",
+    "megye": "VESZPRÉM",
+    "oevk": 4
+  },
+  {
+    "id": "100",
+    "nev": "ZALA, 1. számú OEVK",
+    "megye": "ZALA",
+    "oevk": 1
+  },
+  {
+    "id": "101",
+    "nev": "ZALA, 2. számú OEVK",
+    "megye": "ZALA",
+    "oevk": 2
+  },
+  {
+    "id": "102",
+    "nev": "ZALA, 3. számú OEVK",
+    "megye": "ZALA",
+    "oevk": 3
+  }
+]
