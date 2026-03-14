@@ -18,10 +18,7 @@ class CandidateDetailScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            _buildHeader(context),
-            _buildContent(context),
-          ],
+          children: [_buildHeader(context), _buildContent(context)],
         ),
       ),
     );
@@ -68,7 +65,10 @@ class CandidateDetailScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 4,
+                ),
                 decoration: BoxDecoration(
                   color: _getPartColor(jelolt.part),
                   borderRadius: BorderRadius.circular(4),
@@ -84,7 +84,10 @@ class CandidateDetailScreen extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 4,
+                ),
                 decoration: BoxDecoration(
                   color: _getPartColor(jelolt.part).withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(4),
@@ -108,10 +111,7 @@ class CandidateDetailScreen extends StatelessWidget {
                 const SizedBox(width: 4),
                 Text(
                   'Párt által hitelesített tartalom',
-                  style: TextStyle(
-                    color: Colors.green[700],
-                    fontSize: 12,
-                  ),
+                  style: TextStyle(color: Colors.green[700], fontSize: 12),
                 ),
               ],
             ),
@@ -130,7 +130,11 @@ class CandidateDetailScreen extends StatelessWidget {
       ),
       child: Center(
         child: Text(
-          jelolt.nev.split(' ').map((e) => e.isNotEmpty ? e[0] : '').take(2).join(),
+          jelolt.nev
+              .split(' ')
+              .map((e) => e.isNotEmpty ? e[0] : '')
+              .take(2)
+              .join(),
           style: const TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
@@ -157,9 +161,11 @@ class CandidateDetailScreen extends StatelessWidget {
                     children: [
                       const Icon(Icons.location_on, size: 20),
                       const SizedBox(width: 8),
-                      Text(
-                        jelolt.valasztokeruletNev,
-                        style: Theme.of(context).textTheme.titleSmall,
+                      Expanded(
+                        child: Text(
+                          jelolt.valasztokeruletNev,
+                          style: Theme.of(context).textTheme.titleSmall,
+                        ),
                       ),
                     ],
                   ),
@@ -169,12 +175,14 @@ class CandidateDetailScreen extends StatelessWidget {
                   Text(
                     'Bemutatkozás',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
-                        ),
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   const SizedBox(height: 12),
                   Text(
-                    jelolt.teljesUzenet ?? jelolt.rovidUzenet ?? 'Nincs üzenet.',
+                    jelolt.teljesUzenet ??
+                        jelolt.rovidUzenet ??
+                        'Nincs üzenet.',
                     style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 ],
@@ -191,8 +199,8 @@ class CandidateDetailScreen extends StatelessWidget {
                   Text(
                     'Pártinformáció',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.bold,
-                        ),
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   const SizedBox(height: 12),
                   _buildPartyInfo(context),
@@ -207,7 +215,8 @@ class CandidateDetailScreen extends StatelessWidget {
 
   Widget _buildPartyInfo(BuildContext context) {
     final Map<String, String> partyDescriptions = {
-      'FIDESZ-KDNP': 'Fidesz - Magyar Polgári Szövetség és Kereszténydemokrata Néppárt',
+      'FIDESZ-KDNP':
+          'Fidesz - Magyar Polgári Szövetség és Kereszténydemokrata Néppárt',
       'TISZA': 'Tisztelet és Szabadság Párt',
       'DK': 'Demokratikus Koalíció',
       'Jobbik': 'Jobbik Magyarországért Mozgalom',
