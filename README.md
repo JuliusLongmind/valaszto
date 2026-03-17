@@ -1,17 +1,24 @@
-# valaszto
+# Választó 2026
 
-A new Flutter project.
+2026-os magyar országgyűlési választási jelöltek böngésző alkalmazása.
 
-## Getting Started
+## Képernyőképek
 
-This project is a starting point for a Flutter application.
+| Home | Jelölt részletes | Beállítások |
+|------|-------------------|--------------|
+| <img src="screenshots/01-home.png" width="200"/> | <img src="screenshots/02-candidate-detail.png" width="200"/> | <img src="screenshots/03-settings.png" width="200"/> |
 
-A few resources to get you started if this is your first Flutter project:
+| Körzet kiválasztás | Körzet lista |
+|---------------------|---------------|
+| <img src="screenshots/04-district-select.png" width="200"/> | <img src="screenshots/05-district-picker.png" width="200"/> |
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Funkciók
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 476 jelölt böngészése
+- Körzet választás
+- Jelölt részletes adatlapok (kép, párt, bemutatkozás)
+- Offline működés
+
+## Letöltés
+
+[APK letöltése](https://github.com/JuliusLongmind/valaszto/releases/download/v1.0.0/app-release.apk)
